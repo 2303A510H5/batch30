@@ -1,0 +1,87 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNtcXJgJ0eelkpsMoTKE3ow",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/2303A510H5/batch30/blob/main/housing.csv\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "1x6WiKrD5kh1"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#implementation of Linear Regression on Housing"
+      ],
+      "metadata": {
+        "id": "8GiwPpgL5m96"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import numpy as np\n",
+        "import pandas as pd\n",
+        "import matplotlib.pyplot as plt\n",
+        "housing =pd.read_csv(\"Housing.csv\")\n",
+        "print(housing.head())\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "K-9MMzC65uOi",
+        "outputId": "4e3c8456-2b62-4f8c-e45b-a041bd111723"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "      price  area  bedrooms  bathrooms  stories mainroad guestroom basement  \\\n",
+            "0  13300000  7420         4          2        3      yes        no       no   \n",
+            "1  12250000  8960         4          4        4      yes        no       no   \n",
+            "2  12250000  9960         3          2        2      yes        no      yes   \n",
+            "3  12215000  7500         4          2        2      yes        no      yes   \n",
+            "4  11410000  7420         4          1        2      yes       yes      yes   \n",
+            "\n",
+            "  hotwaterheating airconditioning  parking prefarea furnishingstatus  \n",
+            "0              no             yes        2      yes        furnished  \n",
+            "1              no             yes        3       no        furnished  \n",
+            "2              no              no        2      yes   semi-furnished  \n",
+            "3              no             yes        3      yes        furnished  \n",
+            "4              no             yes        2       no        furnished  \n"
+          ]
+        }
+      ]
+    }
+  ]
+}
